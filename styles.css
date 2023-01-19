@@ -1,0 +1,61 @@
+body {
+    background-color: #CEB7B3;
+    margin-left: 12em;
+    margin-right: 12em;
+}
+
+h1,
+h2 {
+    font-family: "Arial", sans-serif;
+    text-align: center;
+}
+
+ol,
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+p {
+    text-align: center;
+}
+
+a,
+label,
+p {
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+a {
+    color: black;
+}
+
+img.skyline {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    background-color: #ffe2dc;
+}
+
+.navigation {
+    border: 2px solid black;
+}
+
+.ol_links {
+    border: 2px  dotted red;
+    background-color:#ffe2dc;
+}
+
+.ul_links {
+    border: 2px dotted green;
+    background-color: #ffe2dc;
+}
+
+.photos {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+}
